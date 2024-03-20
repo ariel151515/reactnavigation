@@ -9,9 +9,15 @@ const MenuScreen = () => {
 
   return (
     <View>
-      <TouchableOpacity onPress={() => navigation.navigate('Control')}>
+     <>
+        <TouchableOpacity onPress={() => navigation.navigate('Control')}>
           <Text>control-screen</Text>
-      </TouchableOpacity>
+        </TouchableOpacity>
+
+        <TouchableOpacity onPress={() => navigation.navigate('MenuDos')}>
+          <Text>Menu Dos</Text>
+        </TouchableOpacity>
+     </>
     </View>
   )
 }

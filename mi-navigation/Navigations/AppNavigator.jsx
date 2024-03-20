@@ -8,6 +8,7 @@ import HomeScreen from '../screen/HomeScreen';
 import SettingsScreen from '../screen/SettingsScreen';
 import MenuScreen from '../screen/MenuScreen';
 import ControlScreen from '../screen/ControlScree';
+import MenuDosScreen from '../screen/MenuDosScreen';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -28,6 +29,7 @@ const AppNavigator = () => {
       <Stack.Navigator>
         <Stack.Screen name="Tabs" component={TabNavigator} options={{ headerShown: false }} />
         <Stack.Screen name="Control" component={ControlScreen} />
+        <Stack.Screen name="MenuDos" component={MenuDosScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
