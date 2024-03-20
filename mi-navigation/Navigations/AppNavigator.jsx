@@ -22,21 +22,13 @@ const TabNavigator = () => {
   );
 }
 
-const StackNavigator = () => {
-  return (
-    <Stack.Navigator>
-      <Stack.Screen name="Control" component={ControlScreen} />
-    </Stack.Navigator>
-  );
-}
-
 const AppNavigator = () => {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
-        <Tab.Screen name="Home" component={StackNavigator} />
-        <Tab.Screen name="Settings" component={TabNavigator} />
-      </Tab.Navigator>
+      <Stack.Navigator>
+        <Stack.Screen name="Tabs" component={TabNavigator} options={{ headerShown: false }} />
+        <Stack.Screen name="Control" component={ControlScreen} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
