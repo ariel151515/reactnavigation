@@ -6,4 +6,4 @@ const App = () => {
   return <AppNavigator />;
 }
 
-export default App;
+export default App; //solucionado
