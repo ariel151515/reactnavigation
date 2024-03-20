@@ -1,0 +1,11 @@
+https://www.youtube.com/watch?v=Zs-W12TpAeM
+https://www.buymeacoffee.com/tubegurujiw/e/199144
+https://www.youtube.com/shorts/Qi3lm9v7SaY
+
+
+
+
+solucion:
+Android Bundled 5759ms (C:\Users\ariel\OneDrive\Escritorio\reactnavigation\mi-navigation\node_modules\expo\AppEntry.js)
+
+npx expo install react-native-gesture-handler
